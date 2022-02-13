@@ -43,3 +43,11 @@ document.getElementById("withdraw-button").addEventListener('click', function ()
     //clear the deposite input field
     withdrawInput.value = "";
 })
+
+/////////////////////////////////////////////////////////////////
+function redButton() {
+    document.body.style.backgroundColor = "red";
+}
+document.getElementById("goldenrod").addEventListener("click", function () {
+    document.body.style.backgroundColor = "goldenrod";
+})
